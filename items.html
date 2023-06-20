@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./index.html">
+    <script src="./script.js"></script>
+    <style>
+        body {
+            color: rgb(2, 55, 2);
+            font-family: sans-serif;
+        }
+
+        .containerForm {
+            width: 98%;
+            height: 1550px;
+            border: 2px solid rgb(2, 55, 2);
+            padding: 20px;
+            padding-right: 5px;
+        }
+
+        .inpWidth,
+        textarea {
+            width: 97%;
+            height: 30px;
+            outline: none;
+        }
+
+        input:focus,
+        textarea:focus {
+            border: 2px solid rgb(77, 247, 250);
+        }
+
+        .inputGuide {
+            font-size: 10px;
+        }
+
+        hr {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="containerForm">
+        <h3>INCLUDE SOME DETAILS</h3>
+        <label for="title">Add title</label><br>
+        <input type="text" id="title" class="inpWidth"><br>
+        <span class="inputGuide">Mention the key features of your item(e.g: brand, model, age, type)</span><br><br>
+        <label for="detail">Description</label><br>
+        <textarea name="detail" id="detail" cols="" rows="" style="height: 100px;" class="inpWidth"></textarea>
+        <span class="inputGuide">Include condition,features and reasons for selling</span><br><br>
+        <label for="brand">Brand</label><br>
+        <input type='text' id="brand" class="inpWidth"><br><br>
+        <label for="condition">Condition</label><br>
+        <input type='text' id="condition" class="inpWidth"><br><br>
+        <hr><br>
+        <h3>SET A PRICE</h3><br>
+        <label for="price">Price</label><br>
+        <input type='number' id="price" class="inpWidth"><br><br>
+        <hr><br>
+        <h3>UPLOAD UPTO 20 PHOTOS</h3><br>
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;"><br>
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;">
+        <input type="image" src="./images/Screenshot 2023-06-17 000411.png" alt=""
+            style="border-left: 2px solid gainsboro;"><br>
+        <span class="inputGuide">For the cover picture we recommend using the landscape mode</span><br><br>
+        <hr>
+        <h3>YOUR AD's LOCATION</h3>
+        <label for="location">Location</label><br>
+        <input type='text' id="location" class="inpWidth"><br><br>
+        <hr>
+        <h3>REVIEW YOUR DETAILS</h3>
+        <span> <img src="./images/iconProfilePicture.7975761176487dc62e25536d9a36a61d.png" width="78px" height="75px"
+                alt=""></span>
+        <div style="margin-left: 30px;;display: inline-block"><label for="name">Name</label>
+            <input type='text' id="name" class="inpWidth" style="width: 520%;"><br><br>
+            
+        </div>
+        <h3>Let's verify your account</h3>
+        <span class="inputGuide">Mobile Phone Number</span><br>
+        <input type='number' name="number" class="inpWidth"><br><br>
+        <span class="inputGuide" style="font-size: 15px;"><b> Show my phone number in ads</b></span><input type="range" name="" id="" style="width:25px; margin-left: 350px;"><br><br><hr>
+        <button style="color: white;background-color:  rgb(2, 55, 2);border: 2px solid  rgb(2, 55, 2);padding: 10px;border-radius: 5px;" id="poster" onclick="post()">Post now</button>
+    </div>
+    
+</body>
+<script>
+    // let p=document.getElementById('displayCards')
+    // // <span>Rs${brand.value}</span>
+    // // <span>Rs${price}</span>
+    // function poster(){
+        //     `<div style='border:2px solide red; width:400px;height:200px'>
+            
+            // </div>`
+            // window.location.href='./index.html'
+            // }
+            
+            let title=document.getElementById('title')
+            let details=document.getElementById('details')
+            let brand=document.getElementById('brand')
+            let price=document.getElementById('price')
+            let address=document.getElementById('location')
+            function post() {
+            
+            let postObject = {
+                title:localStorage.setItem ('title',title.value),
+                brand:localStorage.setItem('brand', brand.value),
+                price:localStorage.setItem('price',price.value),
+                location:localStorage.setItem('address',address.value),
+                
+            }
+             let products=[]
+             products.push(postObject)
+            products = JSON.parse(localStorage.getItem("products")) ? JSON.parse(localStorage.getItem(
+                "products")) : []
+            localStorage.setItem("products", JSON.stringify(products));
+            
+             window.location.href = "./index.html"
+
+        }
+</script>
+</html>
